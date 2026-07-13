@@ -1,1 +1,1 @@
-The string is a palindrome.
+5 2 4 
