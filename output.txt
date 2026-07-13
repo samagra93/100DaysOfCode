@@ -1,1 +1,1 @@
-a r g a m a s 
+The string is a palindrome.
