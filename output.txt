@@ -1,1 +1,1 @@
-Not Symmetric
+Toeplitz Matrix
