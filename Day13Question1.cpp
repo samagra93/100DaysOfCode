@@ -14,7 +14,8 @@ class Solution {
       left=0;
       right=n-1;
 
-       while (top <= bottom && left <= right) {
+       while (top <= bottom && left <= right) 
+    {
         
         for (int j = left; j <= right; j++) {
             cout << matrix[top][j] << " ";
