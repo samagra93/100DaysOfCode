@@ -15,22 +15,21 @@ class Solution {
       right=n-1;
 
        while (top <= bottom && left <= right) {
-        // Top row
+        
         for (int j = left; j <= right; j++) {
-            printf("%d ", mat[top][j]);
+            cout << matrix[top][j] << " ";
         }
         top++;
         
-        // Right column
         for (int i = top; i <= bottom; i++) {
-            printf("%d ", mat[i][right]);
+            cout << matrix[i][right] << " ";
         }
         right--;
         
         // Bottom row (if exists)
         if (top <= bottom) {
             for (int j = right; j >= left; j--) {
-                printf("%d ", mat[bottom][j]);
+                cout << matrix[bottom][j] << " ";
             }
             bottom--;
         }
@@ -38,14 +37,14 @@ class Solution {
         // Left column (if exists)
         if (left <= right) {
             for (int i = bottom; i >= top; i--) {
-                printf("%d ", mat[i][left]);
+                cout << matrix[i][left] << " ";
             }
             left++;
         }
     }
-    
     cout << endl;
     }
+};
 
 int main()
 {
