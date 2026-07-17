@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> diagonalsum(vector<vector<int>>& matrix) {
+    int diagonalsum(vector<vector<int>>& matrix) {
         int m=matrix.size();
         int n=matrix[0].size();
 
@@ -18,7 +18,7 @@ public:
                  }
              }
         }
-        return {sum};
+        return sum;
     }
 };
 
@@ -32,6 +32,6 @@ int main()
             cin>>matrix[i][j];
 
     Solution obj;
-    vector<int> result=obj.diagonalsum(matrix);
-    cout<<result[0]<<endl;
+    int result=obj.diagonalsum(matrix);
+    cout<<result<<endl;
 }
