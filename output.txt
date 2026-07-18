@@ -1,3 +1,6 @@
-0 0 0 
-0 0 0 
-0 0 0 
+Frequency of elements in the array: 
+2 : 1
+4 : 2
+8 : 2
+3 : 2
+5 : 1
