@@ -1,2 +1,2 @@
-Rotated array: 
-8 5 3 2 4 8 4 3 
+Maximum element: 8
+Minimum element: 2
