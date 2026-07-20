@@ -1,1 +1,1 @@
-Maximum subarray sum: 37
+Rotated array: 5 3 2 4 8 4 3 8 
