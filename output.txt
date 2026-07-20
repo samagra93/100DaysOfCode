@@ -1,1 +1,1 @@
-Rotated array: 5 3 2 4 8 4 3 8 
+Product of array except self: 23040 11520 23040 30720 11520 18432 30720 46080 
